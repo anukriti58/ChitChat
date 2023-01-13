@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: auto; */
+    width: 100%;
+    height: 50px;
+    background-color: rgb(136, 135, 135);
+}
+
+body{
+    background-image: -moz-linear-gradient(rgb(248, 244, 244),pink);
+    height: 100vh;
+}
+
+.container{
+    /* background-color: brown; */
+    border: 2px solid rgb(14, 13, 14);
+    margin: auto;
+    max-width: 900px;
+    height: 83vh;
+    overflow-y: auto; 
+    margin-top: 5px;
+    /* margin-bottom: 23px; */
+}
+
+.Message{
+    background-color: rgb(88, 88, 88);
+    border: 1.5px solid;
+    border-color: black;
+    color: rgb(166, 255, 188);
+    /* border-width: 1.5px; */
+    border-radius: 8px;
+    padding: 10px;
+    margin: 17px 12px;
+    width: 35%
+}
+
+.Left{
+    float: left;
+    clear: both;
+}
+
+.Right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display:block;
+    margin: auto;
+    text-align: center;
+    max-width: 980px;
+    width: 100%;
+}
+
+#messageInp{
+    width: 87%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 32px;
+}
+.btn{
+    margin-top: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width: 50px;
+} 
